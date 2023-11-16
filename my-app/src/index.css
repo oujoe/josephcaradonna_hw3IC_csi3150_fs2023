@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Centered using method from https://www.shecodes.io/athena/67620-how-to-bring-a-container-to-the-top-and-center-of-a-page-using-css#:~:text=in%203.99%20seconds-,To%20bring%20a%20container%20to%20the%20top%20and%20center%20of,and%20vertically%20on%20the%20page. */
+.App {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.counterValue {
+  margin-bottom: 20px;
+  border: 3px solid black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button1 {
+  padding: 20px;
+  background-color: red;
+  margin-right: 20px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.button2 {
+  padding: 20px;
+  background-color: green;
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: bolder;
+}
